@@ -5,6 +5,9 @@ body {
 	/*font-family: 'Rubik', sans-serif;*/
 	overflow-x: hidden;
 }
+input:active {
+	border: none;
+}
 
 .img-logo {
 	margin-left: 90px !important;
