@@ -31,17 +31,14 @@ input:active {
 
 }
 
-/*.bar a {
-	transition-delay: 0s;
-	transition-duration: 0.5s;
-	transition-property: all;
-	transition-timing-function: ease-out;
+.bar a {
+	transition: all 0.5s;
 }
 
 .bar a:hover {
 	text-decoration: underline;
-	color: blue;
-}*/
+
+}
 
 .sec1 h1 {
 	color: white;
