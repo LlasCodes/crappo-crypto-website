@@ -493,6 +493,10 @@ input:focus{
 
 
 @media screen and (max-width: 450px) {
+	body {
+		overflow-x: hidden;
+	}
+	
 	img {
   max-width: 100%;
   display: block;
@@ -667,7 +671,7 @@ input:focus{
 
 .sec3 h2 {
 	font-size: 25px;
-	width: 400px;
+	width: 300px;
 }
 
 .bitstat .stat {
@@ -683,8 +687,13 @@ input:focus{
 	height: 300px;
 }
 
-.gre .inv {
+.gre .inv2 {
 	margin: 0px;
+	font-size: 14px;
+}
+
+.inv2 p {
+	width: 300px;
 }
 
 .gre {
