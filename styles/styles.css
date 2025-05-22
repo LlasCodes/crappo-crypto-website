@@ -3,7 +3,6 @@
 body {
 	background-color: #0D0D2B;
 	/*font-family: 'Rubik', sans-serif;*/
-	overflow-x: hidden;
 }
 input:active {
 	border: none;
@@ -172,7 +171,7 @@ input:active {
 }
 
 .photo5 img {
-	width: 500px;
+	max-width: 500px;
 }
 
 .how-much h2 {
@@ -322,10 +321,10 @@ input {
 
 }
 
-.bitcoin:hover, .Ethereum:hover, .Litecoin:hover {
+/* .bitcoin:hover, .Ethereum:hover, .Litecoin:hover {
 	background-color: #2B076E;
 	color: white;
-}
+} */
 
 .sec3 {
 	background-color: #2b076e;
@@ -347,12 +346,12 @@ display: flex;
 margin-top: -70px;
 }
 
-.inv p {
+.inv p, .inv2 p {
 color: #E0E0E0;
 width: 430px;
 }
 
-.inv h3 {
+.inv h3, .inv2 h3 {
 font-family: 'Rubik', sans-serif;
 font-size: 32px;
 font-weight: 700;
@@ -378,12 +377,12 @@ font-weight: 700;
 
 }
 
-.gre .inv {
+.gre .inv2 {
 	margin-left: 110px;
 	margin-top: -20px;
 }
 
-.gre .inv {
+.gre .inv2 {
 	order: 2;
 }
 
@@ -412,7 +411,7 @@ font-weight: 700;
 	display: flex;
 	background-color: #3671E9;
 	border-radius: 16px;
-	width: 1200px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 50px;
 	margin-top: -330px !important;
@@ -468,11 +467,13 @@ font-weight: 700;
 
 }
 
-.last-part5 p {
-}
 
 .last-part5 .otilo {
 	padding-left: 850px;
+}
+
+.last-part5 a {
+	padding-left: 10px;
 }
 
 input:focus{
@@ -786,6 +787,189 @@ margin-bottom: 60px;
 .otilo {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+}
+
+
+@media only screen and (min-width: 708px) and (max-width: 1024px) {
+ .why {
+	display: flex;
+	margin-left: -200px;
+ }
+
+ .photo5 img {
+	width: 300px;
+ }
+
+ .chose {
+	text-align: center;
+ }
+
+ .sec1 {
+
+	width: 300px !important;
+	margin-left: 20px !important;
+	height: 1500px;
+
+}
+
+.sec1 h1 {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 30px;
+	width: 300px;
+}
+
+.photo1 {
+	margin-left: 10px;
+	
+}
+
+.photo1 img {
+	width: 300px;
+	
+}
+.icons1{
+	display: flex;
+	margin-top: 100px;
+	
+}
+
+.billion, .million, .hundred {
+	width: 250px;
+	margin-right: 30px;
+}
+
+.icons1 h2 {
+	font-size: 20px;
+}
+
+.icons1 img {
+	width: 50px;
+	margin-right: -5px;
+}
+
+.digi-currency, .lmao, .lma {
+	margin-left: 15px;
+}
+
+.chose h2 {
+	
+	font-size: 30px;
+	width: 400px;
+}
+
+.chose p {
+	width: 450px;
+}
+
+.chose {
+	margin-left: 200px;
+	text-align: center;
+	order: 1;
+	/* background-color: red; */
+	
+}
+
+.chose a {
+	margin: auto;
+	width: 150px !important;
+}
+
+
+.photo5 {
+	margin-top: 100px;
+
+}
+.how-much {
+	margin: 100px 0px 0px 100px;
+
+}
+.cryptos {
+	display: block;
+	/* justify-content: center; */
+	margin-top: 50px;
+	width: 500px;
+	margin: auto;
+}
+
+.sec2 {
+	text-align: center;
+	height: 1800px;
+}
+
+.bitcoin, .Ethereum, .Litecoin{
+	margin-top: 50px;
+}
+
+.bitstat {
+	display: block;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.inv {
+	margin-left: 150px;
+}
+
+.stat {
+	margin: 70px 0px;
+}
+
+.gre {
+	display: block;
+}
+
+.gre .inv2 {
+	margin-left: 150px;
+	margin-top: 50px;
+
+}
+.gre img {
+	margin-left: 150px;
+	margin-top: 50px;
+
+}
+
+
+
+.grow {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 50px;
+}
+
+.grow img {
+	width: 600px;
+	height: 600px;
+	margin: 0px;
+	margin-bottom: 80px;
+}
+
+.otilo {
+	display: flex;
+	width: 300px;
+}
+
+.otilo img {
+	width: 50px !important;
+}
+
+.last-part5 {
+	display: flex;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	height: 50px;
+	margin-bottom: 300px;
+
+}
+
+.last-part5 .otilo {
+	padding-left: 600px;
 }
 
 }
